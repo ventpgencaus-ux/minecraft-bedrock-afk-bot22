@@ -12,7 +12,7 @@
 require('dotenv').config();
 const bedrock = require('bedrock-protocol');
 
-const HOST = process.env.SERVER_HOST || 'localhost';
+const HOST = process.env.SERVER_HOST || 'class6csmp.bedrock.minehut.gg';
 const PORT = parseInt(process.env.SERVER_PORT || '19132', 10);
 const USERNAME = process.env.BOT_USERNAME || 'AFK_Bot';
 const JUMP_INTERVAL_MS = parseInt(process.env.JUMP_INTERVAL_MS || '15000', 10);
