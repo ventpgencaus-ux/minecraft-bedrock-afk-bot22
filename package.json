@@ -1,0 +1,13 @@
+{
+  "name": "minecraft-bedrock-afk-bot",
+  "version": "1.0.0",
+  "description": "A Bedrock Minecraft bot that joins your server and jumps periodically to prevent host auto-shutdown when the server is empty.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.32.0",
+    "dotenv": "^16.4.5"
+  }
+}
